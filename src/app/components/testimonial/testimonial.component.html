@@ -1,0 +1,7 @@
+<app-section-title title="Testimonials"></app-section-title>
+
+<carousel cellWidth="100%" [dots]="true" [arrows]="false"	height=300 [autoplay]="true" >
+  <div class="carousel-cell" *ngFor="let testimonial of testimonials">
+    <app-testimonial-card [testimonial]="testimonial"></app-testimonial-card>
+  </div>
+</carousel>

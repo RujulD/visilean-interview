@@ -1,0 +1,23 @@
+.header-wrapper {
+  max-width: 1140px;
+  height: 74px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  .header-logo {
+    cursor: pointer;
+    height: 36px;
+  }
+  .header-navigations {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-content: center;
+    .navigation-link {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+}

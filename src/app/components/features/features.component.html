@@ -1,0 +1,8 @@
+<div class="container">
+  <app-section-title title="With Visilean, we help you setup and execute complex projects"></app-section-title>
+  <div class="feature-card">
+    <div class="card-wrapper" *ngFor="let feature of features">
+      <app-card-component [title]="feature.title" [description]="feature.description"></app-card-component>
+    </div>
+  </div>
+</div>

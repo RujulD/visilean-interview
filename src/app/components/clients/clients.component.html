@@ -1,0 +1,8 @@
+<div class="container">
+  <app-section-title title="Our Clients"></app-section-title>
+  <div class="client-cards">
+    <span *ngFor="let client of clients">
+      <app-client-card [logoUrl]="client.logoUrl"></app-client-card>
+    </span>
+  </div>
+</div>

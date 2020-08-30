@@ -1,0 +1,19 @@
+.section-heading {
+  text-align: center;
+  padding: 40px 0;
+
+  .section-title {
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .section-underline {
+    width: 70px;
+    border: 2px solid #8babc6;
+    margin: 0 auto;
+  }
+}

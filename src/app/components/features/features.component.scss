@@ -1,0 +1,11 @@
+.feature-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -13px;
+
+  .card-wrapper {
+    width: 33.33%;
+    padding: 0 13px;
+    max-width: 380px;
+  }
+}
